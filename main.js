@@ -8,8 +8,10 @@ const toggleBtn = document.querySelector(".toggle-btn");
 const sidebarLinks = document.querySelectorAll(".sidebar-links a");
 const navLinks = document.querySelectorAll(".nav-links a");
 const navbarDOM = document.querySelector(".navbar");
+const sidebarLogo = document.querySelector(".sidebarLogo");
+const NavbarLogo = document.querySelector(".navbarLogo");
 
-console.log(navbarDOM);
+console.log(NavbarLogo);
 
 let newArray = socialMedia.map((item) => {
   return `<a href="#" key="${item.name}">${item.icon}</a>`;
@@ -97,5 +99,21 @@ sidebarLinks.forEach((link) => {
         behavior: "smooth",
       });
     }
+  });
+});
+
+sidebarLogo.addEventListener("click", () => {
+  scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+
+  sidebarDOM.classList.remove("open-sidebar");
+  sidebarDOM.classList.add("close-sidebar");
+});
+NavbarLogo.addEventListener("click", () => {
+  scrollTo({
+    top: 0,
+    behavior: "smooth",
   });
 });

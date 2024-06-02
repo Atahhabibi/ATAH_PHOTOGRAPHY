@@ -91,9 +91,12 @@ nav {
   display: none;
 }
 
-.logo h2 {
+.logo a {
   color: rgb(211, 65, 65);
   letter-spacing: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size:2rem;
 }
 
 .logo span {
@@ -626,9 +629,11 @@ SMALL SCREEN DEVICE
     align-items: center;
   }
 
-  .sideabar-header h2 {
+  .sideabar-header a {
     color: rgb(126, 13, 13);
     font-size: 2.5rem;
+    cursor: pointer;
+    text-decoration: none;
   }
 
   .sideabar-header span {
