@@ -14,7 +14,7 @@ const NavbarLogo = document.querySelector(".navbarLogo");
 console.log(NavbarLogo);
 
 let newArray = socialMedia.map((item) => {
-  return `<a href="#" key="${item.name}">${item.icon}</a>`;
+  return `<a href="${item.link}"  target="_blank" key="${item.name}"  >${item.icon}</a>`;
 });
 
 containerDOM.innerHTML = newArray.join(" ");
