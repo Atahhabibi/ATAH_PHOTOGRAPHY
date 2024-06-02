@@ -96,7 +96,7 @@ nav {
   letter-spacing: 3px;
   text-decoration: none;
   cursor: pointer;
-  font-size:2rem;
+  font-size: 2rem;
 }
 
 .logo span {
@@ -613,24 +613,27 @@ SMALL SCREEN DEVICE
     left: 0;
     width: 60%;
     height: 100%;
-    background: white;
+    background: rgb(113, 105, 105);
     z-index: 3333;
     transition: all 1s ease-in;
     color: white;
     box-shadow: 1px 0px 10px rgb(7, 4, 4);
     transform: translate(-100%);
+
   }
 
   .sideabar-header {
-    background: rgb(191, 157, 157);
+    background: rgb(21, 6, 0);
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
     align-items: center;
   }
 
+  
+
   .sideabar-header a {
-    color: rgb(126, 13, 13);
+    color: rgb(251, 248, 248);
     font-size: 2.5rem;
     cursor: pointer;
     text-decoration: none;
@@ -646,7 +649,7 @@ SMALL SCREEN DEVICE
     border: none;
     transition: all 0.5s ease-in-out;
     /* animation: move 3s ease infinite; */
-    color: rgb(72, 11, 11);
+    color: rgb(221, 207, 207);
     cursor: pointer;
   }
 
@@ -670,6 +673,7 @@ SMALL SCREEN DEVICE
     letter-spacing: 2px;
     font-weight: bold;
     background: rgb(128, 117, 117);
+    background:white;
     margin-top: 0.5rem;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
@@ -691,12 +695,13 @@ SMALL SCREEN DEVICE
     display: flex;
     justify-content: space-between;
     padding: 1rem 8rem;
-    border: 2px solid rgb(148, 49, 49);
+
   }
 
   .sidebar-socailMedia a {
     font-size: 2rem;
     color: rgb(24, 8, 2);
+    color: rgb(40, 2, 2);
     transition: all 0.3s ease-in;
   }
   .sidebar-socailMedia a:hover {
@@ -858,6 +863,15 @@ SMALL SCREEN DEVICE
 }
 
 @media screen and (max-width: 600px) {
+
+  .single-project:hover {
+    opacity: 1;
+  }
+
+  .about-btn{
+    display: none;
+  }
+
   .sidebar-socailMedia {
     padding: 1rem 5rem;
   }
