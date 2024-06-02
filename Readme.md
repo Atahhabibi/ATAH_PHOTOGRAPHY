@@ -1,6 +1,5 @@
 # Atah Habibi Photography Website
-
-- <img width="1473" alt="Screenshot 2024-06-02 at 6 29 17 AM" src="https://github.com/Atahhabibi/ATAH_PHOTOGRAPHY/assets/106895247/7ea022bb-53b3-4ac0-8355-912eb8a54ab5">
+ <img width="1473" alt="Screenshot 2024-06-02 at 6 29 17 AM" src="https://github.com/Atahhabibi/ATAH_PHOTOGRAPHY/assets/106895247/7ea022bb-53b3-4ac0-8355-912eb8a54ab5">
 
 
 Welcome to the repository for my professional photography portfolio website, which I built using only HTML, CSS, and JavaScript. The design focuses on showcasing my photographic work in the best light possible.
